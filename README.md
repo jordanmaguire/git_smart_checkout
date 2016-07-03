@@ -28,6 +28,12 @@ chmod +x git_smart_checkout.rb
 ln -s `pwd`/git_smart_checkout.rb ~/bin/git_smart_checkout
 ```
 
+You can also add an alias to make using this more convenient. EG:
+
+```
+alias gco="git_smart_checkout"
+```
+
 ## TODO
 
 - Support checking out remote branches
